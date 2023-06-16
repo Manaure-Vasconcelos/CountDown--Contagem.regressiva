@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: skyblue;
+}
+footer {
+    font-size: 20px;
+    margin: 100px;
+}
+.conteiner{
+    background-color: aliceblue;
+    border-radius: 25px;
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
+.Timer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 50px;
+    min-width: 100px;
+}
+.buttons{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    transition: all .3 ease-in-out;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    font-size: 15px;
+    margin: 10px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: rgba(0,0,0,.5);
+    color: aliceblue;
+}
+#pauseBtn,
+#resumeBtn {
+    display: none;
+}
+.box{ /* Input hora e minuto */
+    width: 40px;
+}
+.inputTempo {
+    font-size: 17px;
+    display: none;
+    padding-bottom: 10px;
+}

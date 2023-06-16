@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <title>Contagem Regressiva.</title>
+</head>
+<body>
+    <section class="conteiner">
+        <h1>Contagem Regressiva.</h1>
+        <div class="Timer">
+            <div class="horas">00</div>
+            <div class="separador">:</div>
+            <div class="minutes">00</div>
+            <div class="separador">:</div>
+            <div class="segundos">00</div>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="playBtn">play</button>
+            <button class="btn" id="pauseBtn">pause</button>
+            <button class="btn" id="resumeBtn">resume</button>
+            <button class="btn" id="contagemBtn">tempo</button>
+        </div>
+        <div class="inputTempo">
+            Horas:<input type="number" class="box" id="txtHora" placeholder="24">
+            Minutos:<input type="number" class="box" id="txtMinuto" max="60"  placeholder="60">
+        </div>
+    </section>
+    <footer>
+        &copy; Manaure Vasconcelos.
+    </footer>
+</body>
+</html>
