@@ -11,16 +11,21 @@ footer {
 .conteiner{
     background-color: aliceblue;
     border-radius: 25px;
-    width: 350px;
+    width: 380px;
     height: auto;
     margin: auto;
 }
 .Timer{
     display: flex;
-    justify-content: center;
-    margin: auto;
     font-size: 50px;
-    min-width: 100px;
+    font-weight: bold;
+    justify-content: center;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
 }
 .buttons{
     margin: 10px;
@@ -37,11 +42,15 @@ footer {
     border: 1px solid black;
     font-size: 15px;
     margin: 10px;
+    background: #6f57f5;
 }
 .btn:hover{
     transform: scale(1.2);
-    background-color: rgba(0,0,0,.5);
     color: aliceblue;
+    border: white;
+}
+#playBtn {
+    background: #00ac48;
 }
 #pauseBtn,
 #resumeBtn {

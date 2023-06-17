@@ -15,17 +15,25 @@
     <section class="conteiner">
         <h1>Contagem Regressiva.</h1>
         <div class="Timer">
-            <div class="horas">00</div>
-            <div class="separador">:</div>
-            <div class="minutes">00</div>
-            <div class="separador">:</div>
-            <div class="segundos">00</div>
+            <div class="time" id="horas">00</div>
+            <div class="time" id="separador">:</div>
+            <div class="time" id="minutos">00</div>
+            <div class="time" id="separador">:</div>
+            <div class="time" id="segundos">00</div>
         </div>
         <div class="buttons">
-            <button class="btn" id="playBtn">play</button>
-            <button class="btn" id="pauseBtn">pause</button>
-            <button class="btn" id="resumeBtn">resume</button>
-            <button class="btn" id="contagemBtn">tempo</button>
+            <button class="btn" id="playBtn">
+                <span class="material-icons">play_arrow</span>
+            </button>
+            <button class="btn" id="pauseBtn">
+                <span class="material-icons">pause</span>
+            </button>
+            <button class="btn" id="resumeBtn">
+                <span class="material-icons">resume</span>
+            </button>
+            <button class="btn" id="contagemBtn" title="Adicione uma contagem">
+                <span class="material-icons">timer</span>
+            </button>
         </div>
         <div class="inputTempo">
             Horas:<input type="number" class="box" id="txtHora" placeholder="24">
