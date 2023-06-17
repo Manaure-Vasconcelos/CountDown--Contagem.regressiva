@@ -52,12 +52,16 @@ footer {
 #playBtn {
     background: #00ac48;
 }
+#resetBtn {
+    background-color: red;
+}
 #pauseBtn,
-#resumeBtn {
+#resumeBtn,
+#resetBtn {
     display: none;
 }
 .box{ /* Input hora e minuto */
-    width: 40px;
+    width: 60px;
 }
 .inputTempo {
     font-size: 17px;
