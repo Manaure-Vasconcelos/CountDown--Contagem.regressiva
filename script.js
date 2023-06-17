@@ -46,9 +46,8 @@ function contagem() {
                     millisegundos = 1000
                 }
                 if (minutos === 0 && segundos === 0){
-                    pausado = true
-                    playBtn.style.display = 'block'
-                    pauseBtn.style.display = 'none'
+                    resetar()
+                    alert("FIM")
                 } else if(segundos === 0){
                     minutos--
                     segundos = 59
