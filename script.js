@@ -36,7 +36,11 @@ function contagem() {
     minutos = Number(txtMinuto.value)
     if(horas === 0 && minutos === 0 && segundos === 0){
         alert("Preencha o campo corretamente.")
-    } else {
+    } else { 
+        if (minutos >= 60 && minutos <= 119) {
+            horas+= 1
+            minutos-=60
+        }
         interval = setInterval(() => {
             if (!pausado){
                 millisegundos -= 10
