@@ -42,7 +42,7 @@ footer {
     border: 1px solid black;
     font-size: 15px;
     margin: 10px;
-    background: #6f57f5;
+    background: #7f69ff;
 }
 .btn:hover{
     transform: scale(1.2);
@@ -50,10 +50,10 @@ footer {
     border: white;
 }
 #playBtn {
-    background: #00ac48;
+    background: #29c76b;
 }
 #resetBtn {
-    background-color: red;
+    background-color: rgb(255, 46, 46);
 }
 #pauseBtn,
 #resumeBtn,
